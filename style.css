@@ -1,0 +1,91 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COLOR PALETTE */
+:root {
+    --bg-main: #f9f7f4;
+    --text-primary: #18212c;
+    --text-secondary: #888787;
+    --white: #ffffff;
+}
+
+/* BASE */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+
+/* HEADER */
+.header {
+    padding: 40px 0 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 180px;
+}
+
+/* MAIN */
+.main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 40px;
+}
+
+/* SECTIONS */
+section {
+    margin-bottom: 45px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: var(--text-primary);
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--text-primary);
+}
+
+p {
+    max-width: 650px;
+    color: var(--text-primary);
+}
+
+/* PRODUCTS */
+.products ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.products li {
+    padding: 6px 0;
+    color: var(--text-secondary);
+}
+
+/* CONTACT */
+.contact a {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 20px 0 30px;
+    font-size: 14px;
+    color: var(--text-secondary);
+}
