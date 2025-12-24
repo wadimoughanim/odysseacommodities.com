@@ -1,48 +1,186 @@
-<!DOCTYPE html>
+<!-- index.html -->
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Physical Commodities Trading</title>
-
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Odyssea Commodities</title>
+  <meta name="description" content="Odyssea Commodities — physical commodities trading. Independent sourcing and commercialization with disciplined execution and discretion." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="header" role="banner">
+    <div class="container header__inner">
+      <a class="brand" href="#" aria-label="Odyssea Commodities home">
+        <img src="logo.png" class="brand__logo" alt="Odyssea Commodities" />
+      </a>
 
-    <header class="header">
-        <img src="logo.png" alt="Company Logo" class="logo" />
-    </header>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">Who we are</a>
+        <a href="#products">Products</a>
+        <a href="#how">How we work</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-    <main class="main">
-        <section class="intro">
-            <h1>Physical Commodities Trading</h1>
-            <p>
-                Independent sourcing and trading of selected physical commodities.
-                We work with producers, processors, and end-users on a spot and term basis.
-            </p>
-        </section>
+      <button class="nav__toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
 
-        <section class="products">
-            <h2>Products</h2>
+  <main class="main" role="main">
+    <section class="hero" aria-label="Intro">
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="kicker">Odyssea Commodities</p>
+          <h1>Physical commodities trading.</h1>
+          <p class="lead">
+            Independent sourcing and commercialization of selected physical commodities —
+            with disciplined execution, discretion, and long-term counterparty relationships.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#contact">Get in touch</a>
+            <a class="btn btn--ghost" href="#products">View products</a>
+          </div>
+
+          <p class="micro">
+            Information on this website is provided for general purposes only and does not constitute an offer or solicitation.
+          </p>
+        </div>
+
+        <div class="hero__card" aria-label="Key highlights">
+          <div class="card">
+            <div class="card__row">
+              <span class="label">Focus</span>
+              <span class="value">Physical commodities</span>
+            </div>
+            <div class="card__row">
+              <span class="label">Execution</span>
+              <span class="value">Bilateral, discreet</span>
+            </div>
+            <div class="card__row">
+              <span class="label">Process</span>
+              <span class="value">Contractual settlement, independent inspection where relevant</span>
+            </div>
+            <div class="card__row">
+              <span class="label">Counterparties</span>
+              <span class="value">Qualified producers, processors, end-users</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2>Who we are</h2>
+        <p class="text">
+          Odyssea Commodities is an independent trading firm focused on physical commodities.
+          We work across international commodity markets with established industry counterparties,
+          emphasizing reliability, transparency, and execution discipline.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="products">
+      <div class="container">
+        <div class="section__head">
+          <h2>Products</h2>
+          <p class="muted">Specifications, origins, and terms available upon request.</p>
+        </div>
+
+        <div class="grid">
+          <article class="tile">
+            <h3>Antimony</h3>
             <ul>
-                <li>Antimony Ore / Concentrate</li>
-                <li>Antimony Metal (Ingots)</li>
+              <li>Antimony Ore / Concentrate</li>
+              <li>Antimony Metal (Ingots)</li>
             </ul>
-        </section>
+          </article>
 
-        <section class="contact">
-            <h2>Contact</h2>
-            <p>
-                Commercial discussions by introduction only.<br />
-                <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
-            </p>
-        </section>
-    </main>
+          <article class="tile">
+            <h3>Commercial Scope</h3>
+            <ul>
+              <li>Spot and term transactions</li>
+              <li>Structured bilateral negotiations</li>
+              <li>Documentation aligned with standard trade practices</li>
+            </ul>
+          </article>
 
-    <footer class="footer">
-        <p>© <span id="year"></span> — All rights reserved</p>
-    </footer>
+          <article class="tile">
+            <h3>Services</h3>
+            <ul>
+              <li>Physical sourcing and allocation</li>
+              <li>Coordination with inspection & logistics partners</li>
+              <li>Counterparty onboarding support (KYC-ready)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
+    <section class="section" id="how">
+      <div class="container">
+        <h2>How we work</h2>
+        <div class="how">
+          <div class="how__item">
+            <div class="how__num">01</div>
+            <div class="how__body">
+              <h3>Qualification</h3>
+              <p>We engage with qualified counterparties and handle transactions on a bilateral basis.</p>
+            </div>
+          </div>
+          <div class="how__item">
+            <div class="how__num">02</div>
+            <div class="how__body">
+              <h3>Documentation</h3>
+              <p>Terms are defined contractually, including settlement, inspection, and delivery basis.</p>
+            </div>
+          </div>
+          <div class="how__item">
+            <div class="how__num">03</div>
+            <div class="how__body">
+              <h3>Execution</h3>
+              <p>We coordinate execution with relevant logistics and independent inspection partners where applicable.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--contact" id="contact">
+      <div class="container contact">
+        <div>
+          <h2>Contact</h2>
+          <p class="text">
+            Commercial discussions by introduction only. Please reach out via email and include your company name and intended volume range.
+          </p>
+          <p class="contact__line">
+            <a class="email" href="mailto:info@odysseacommodities.com">info@odysseacommodities.com</a>
+          </p>
+          <p class="muted small">Operating across major commodity trading hubs.</p>
+        </div>
+
+        <div class="card card--disclaimer">
+          <h3>Disclaimer</h3>
+          <p class="muted">
+            Information provided on this website is for general informational purposes only and does not constitute an offer,
+            solicitation, or commitment to transact. All transactions are subject to contract, counterparty approval, and
+            applicable regulations.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Odyssea Commodities</span>
+      <span class="muted">All rights reserved</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
